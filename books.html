@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in JS</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Students List</h1>
+        <hr>
+            <label for="fname">Name:</label> <br>
+            <input type="text" id="name" name="fname" placeholder="First Name"> <br>
+            <label for="lname">Last Name:</label> <br>
+            <input type="text" id="name" name="lname" placeholder="Last Name"> <br>
+            <label for="salary">salary:</label> <br>
+            <input type="number" id="address" name="address" > <br>
+            <label for="Department">Department:</label> <br>
+            <input type="text" id="Department" name="Department" placeholder="Department"> <br>
+            <button onclick="addStudent()">Add Student</button>    
+            <br> <br>
+        
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>salary</th>
+                    <th>Department</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="result"></tbody>
+        </table>
+    </blockquote>
+    
+    <script src="./custom.js"></script>
+    
+</body>
+</html>
