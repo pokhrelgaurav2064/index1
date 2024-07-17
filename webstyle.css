@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.header a{
+   display: flex;
+   color: tomato;
+   text-decoration: none;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    align-items: center;
+}
+
+.header ul li{
+    margin: 0 10px;
+}
+.container2{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.search input[type=text]{
+    width: 100%;
+    height: 40px;
+    
+    padding: 0 15px;
+    color: grey;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+        
+         
+} 
+.search{
+    width: 25%;
+    position: relative;
+     color: tomato;
+     display: flex;
+} 
+.search button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 15px;
+    border: none;
+    background: none;
+    color: tomato;
+    border-radius: 0 4px 4px 0;
+}
+.container3{
+   
+    margin-top: 30px;
+    background-color: tomato;
+    height: 40px;
+    padding: 0;
+    
+}
+.container3 ul li {
+    
+     color: white;
+    list-style: none;
+    padding: 10px 10px 8px 10px;
+}
+.container3 a{
+    
+    color: white;
+}
+.container3 ul li a{
+    text-decoration: none;
+    align-items: center;
+}
+.container3 menu{
+    width: 40%;
+    
+}
